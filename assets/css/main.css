@@ -1271,12 +1271,17 @@ input, select, textarea {
 			width: 5.5rem;
 			height: 5.5rem;
 			line-height: 5.5rem;
-			border: solid 1px #ffffff;
-			border-radius: 100%;
+			/* border-top: solid 1px #ffffff; */
+			border-bottom: solid 1px #ffffff;
+			/* border-radius: 100%; */
+			display: flex;
+			justify-content: center;
+			align-items: center;
 		}
 
-			#header .logo .icon:before {
+			#header .logo .img-logo {
 				font-size: 2rem;
+				/* padding: 5px 10px; */
 			}
 
 		#header .content {
