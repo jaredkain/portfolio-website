@@ -1110,7 +1110,7 @@ input, select, textarea {
 			height: 100%;
 		}
 
-		#bg:before {
+		/* #bg:before {
 			-moz-transition: background-color 2.5s ease-in-out;
 			-webkit-transition: background-color 2.5s ease-in-out;
 			-ms-transition: background-color 2.5s ease-in-out;
@@ -1124,7 +1124,7 @@ input, select, textarea {
 			background-position: center, center;
 			background-repeat: no-repeat, repeat;
 			z-index: 2;
-		}
+		} */
 
 		#bg:after {
 			-moz-transform: scale(1.125);
